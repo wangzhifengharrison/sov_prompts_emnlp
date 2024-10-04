@@ -188,48 +188,65 @@
   </div>
 </section>
 <!-- End paper abstract -->
-
+   <!-- introductioln Section -->
+   <section class="section">
+    <div class="container">
+        <h2 class="title is-3">Introduction</h2>
+        <p class="content">
+          Proposed Set-of-Vision (SoV) prompting approach for enhancing facial expression recognition
+          in Vision-Language Large Models (VLLMs). SoV progressively incorporates (1) bounding boxes to identify and locate faces, (2) numbered boxes to ground and
+          differentiate faces, and (3) facial landmarks to analyze
+          spatial relationships for fine-grained emotion classification. This multi-stage visual prompting strategy enables
+          VLLMs to accurately detect and recognize emotions in
+          real-world images while preserving global context.
+        </p>
+        <p>In the bottom of Figure, the use of SoV prompts, such as numbering each face, placing bounding boxes, and identifying facial landmarks, allows for a more precise analysis. The correct number of faces is identified (18), and the emotions are accurately categorized into more nuanced groups: `Neutral Emotion', `Mildly Positive Emotion', and `Smiling or Happy'. This method provides a clearer and more detailed breakdown of each individual's emotional state based on visible facial expressions. This comparison highlights the importance and effectiveness of integrating visual prompts in VLLMs analysis for more accurate and detailed recognition and categorization of human emotions in images.</p>
+        <figure class="image">
+            <img src="static/images/paper_svg/introduction_compare_motivation_rows.svg" alt="Performance Comparison Chart">
+        </figure>
+    </div>
+</section>
 
 <!-- Image carousel -->
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
+      <h2 class="title is-3">Results</h2>
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
+      
+        <img src="static/images/paper_svg/negative_emotion_recognition_appendix.svg" height="50" width="100%" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
           First image description.
         </h2>
       </div>
+      
       <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
+     
+        <img src="static/images/paper_svg/scene_based_emotion_recognition_appendix.svg" height="50" width="100%" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
           Second image description.
         </h2>
       </div>
       <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
+       
+        <img src="static/images/paper_svg/redcircle_sov_appendix.svg" height="50" width="100%" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
          Third image description.
        </h2>
      </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
+     <!-- <div class="item">
+      <img src="static/images/carousel4.jpg" height="100" alt="MY ALT TEXT"/>
       <h2 class="subtitle has-text-centered">
         Fourth image description.
       </h2>
-    </div>
+    </div> -->
+
   </div>
 </div>
 </div>
 </section>
 <!-- End image carousel -->
-
-
 
 
 <!-- Youtube video -->
@@ -254,28 +271,28 @@
 
 
 <!-- Video carousel -->
-<section class="hero is-small">
+<!-- <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
       <h2 class="title is-3">Another Carousel</h2>
       <div id="results-carousel" class="carousel results-carousel">
         <div class="item item-video1">
           <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
+          
             <source src="static/videos/carousel1.mp4"
             type="video/mp4">
           </video>
         </div>
         <div class="item item-video2">
           <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
+       
             <source src="static/videos/carousel2.mp4"
             type="video/mp4">
           </video>
         </div>
         <div class="item item-video3">
           <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
+ 
             <source src="static/videos/carousel3.mp4"
             type="video/mp4">
           </video>
@@ -283,9 +300,8 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 <!-- End video carousel -->
-
 
 <!-- Paper poster -->
 <section class="hero is-small is-light">
